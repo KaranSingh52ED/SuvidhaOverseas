@@ -11,6 +11,48 @@ const teamData = [
         role2: "CEO",
         image: William,
         badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
+    }, {
+        name: 'Name....... Lorem',
+        role: "Founder and President of Suvidhja overseas",
+        role2: "CEO",
+        image: William,
+        badge: <HiBadgeCheck />,
     },
 
 
@@ -23,12 +65,12 @@ const Team = () => {
         threshold: 0.1,
     });
 
-    // const initialDisplayCount = 4;
-    // const [displayCount, setDisplayCount] = React.useState(initialDisplayCount);
+    const initialDisplayCount = 4;
+     const [displayCount, setDisplayCount] = React.useState(initialDisplayCount);
 
-    // const handleViewMore = () => {
-    //     setDisplayCount(displayCount + initialDisplayCount);
-    // };
+     const handleViewMore = () => {
+         setDisplayCount(displayCount + initialDisplayCount);
+    };
 
     return (
         <div className='justify-center align-center mt-8 pb-16'>
@@ -64,8 +106,8 @@ const Team = () => {
             </div>
 
             {/* After Team Data */}
-            {/* .slice(0, displayCount) */}
-            {/* {displayCount < teamData.length && (
+            .slice(0, displayCount) 
+            {displayCount < teamData.length && (
                 <div className='flex justify-center mt-4'>
                     <button
                         className='px-4 py-2 bg-green hover:bg-primary text-white rounded-sm font-quicksand'
@@ -74,7 +116,7 @@ const Team = () => {
                         View More
                     </button>
                 </div>
-            )} */}
+            )} 
         </div>
     );
 };
