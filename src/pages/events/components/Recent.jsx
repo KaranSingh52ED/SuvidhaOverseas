@@ -51,7 +51,7 @@ const Recent = () => {
                         Recent Events
                     </p>
                     <h2 className=" font-quicksand font-bold md:text-5xl text-3xl text-gray-600 mb-4 md:max-w-[700px] md:ml-[25%] mt-6 md:p-0 p-2">
-                        Be ready to be updated on our recent charity events
+                        Be ready to be updated on our recent Foundation events
                     </h2>
                 </div>
             </div>
