@@ -38,7 +38,7 @@ const Team = () => {
                         Meet Our Team
                     </p>
                     <h2 className=" font-quicksand font-bold md:text-5xl text-3xl text-gray-600 mb-4 md:max-w-[700px] md:ml-[25%] mt-6 md:p-0 p-2">
-                        Awesome guys behind our charity activities
+                        Awesome guys behind our Foundation activities
                     </h2>
                 </div>
             </div>
