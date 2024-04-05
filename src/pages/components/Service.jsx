@@ -6,7 +6,11 @@ import culturalExchangeInitiatives from "../../assets/services/Cultural-Exchange
 import EducationalCounseling from "../../assets/services/Educational-Counseling.jpg";
 import languageSupport from "../../assets/services/Language-Support.jpg";
 import sopReview from "../../assets/services/SOP.jpg";
+import FinancialPlaning from "../../assets/services/Finacial.jpg";
 import mentorshipPrograms from "../../assets/services/Mentorship.jpg";
+import VisaSupport from "../../assets/services/Visa-Support.jpg";
+
+
 const services = [
     {
         Image: ScholarshipAssistance,
@@ -42,6 +46,15 @@ const services = [
         Image: culturalExchangeInitiatives,
         title: 'Cultural Exchange Initiatives',
         description: 'Participate in cultural exchange events fostering global understanding and appreciation of diversity.',
+    },
+    {
+        Image:FinancialPlaning,
+        title: 'Financial Planning Assistance',
+        description: 'Personalized financial planning support to help you manage your finances and make the most of your study abroad experience.',
+    },{
+        Image: VisaSupport,
+        title: 'Visa Support ',
+        description: 'Guidance and support in applying for student visa to study abroad and fulfill your academic aspirations abroad.',
     },
 ];
 
