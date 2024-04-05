@@ -1,7 +1,6 @@
-// App.js
 import React from 'react';
 import moduleData from './moduleData';
-import ModuleComponent from './moduleComponent';
+import ModuleComponent from './ModuleComponent';
 
 const Module = () => {
     return (
@@ -13,6 +12,5 @@ const Module = () => {
             ))}
         </div>
     );
-};
-
+}
 export default Module;
