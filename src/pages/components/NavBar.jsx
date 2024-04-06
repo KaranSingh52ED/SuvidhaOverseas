@@ -222,7 +222,7 @@ const Navigation = () => {
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/speaking"
                                                     className={`block p-2 hover:bg-white md:text-md rounded-md border-green font-medium text-md mt-4 hover:text-red`}
                                                 >
                                                     Speaking Details

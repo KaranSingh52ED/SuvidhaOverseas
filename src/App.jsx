@@ -11,6 +11,7 @@ import Contact from './pages/contact/Contact';
 import Recent1 from './pages/event-blogs/first/Main';
 import HomeMasterClass from "./pages/IELTS_masterclass/HomeMasterClass";
 import HomeModule from "./pages/IELTS_Module/HomeModule";
+import HomeSpeaking from "./pages/SpeakingDetails/HomeSpeaking";
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/module" element={<HomeModule />} />
         <Route path="/inauguration" element={<Recent1 />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/speaking" element={<HomeSpeaking />} />
       </Routes>
 
     </Router>
