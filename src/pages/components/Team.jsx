@@ -26,7 +26,7 @@ const teamData = [
         role2: "CEO",
         image: William,
         badge: <HiBadgeCheck />,
-    }, 
+    },
     {
         name: 'Name....... Lorem',
         role: "Founder a of Suvidhja overseas",
@@ -34,7 +34,7 @@ const teamData = [
         image: William,
         badge: <HiBadgeCheck />,
     },
-    
+
 
 ];
 
@@ -86,8 +86,8 @@ const Team = () => {
                 </div>
             </div>
 
-             {/* After Team Data */}
-             {displayCount < teamData.length && (
+            {/* After Team Data */}
+            {displayCount < teamData.length && (
                 <div className='flex justify-center mt-4'>
                     <button
                         className='px-4 py-2 bg-green hover:bg-primary text-white rounded-sm font-quicksand'
