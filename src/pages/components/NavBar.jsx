@@ -267,7 +267,7 @@ const Navigation = () => {
                 className="p-1 font-normal"
             >
                 <NavLink to="/causes" className="flex bg-purple-600 hover:bg-green rounded-full p-2 w-full h-10 justify-center transform transition duration-500 ease-in-out hover:rotate-12 hover:scale-110 items-center font-medium md:text-lg text-md text-gray-500 hover:text-blue lg:hover:border-b-2 hover:border-red font-quicksand">
-                    Causes
+                    Services
                 </NavLink>
             </Typography>
 
