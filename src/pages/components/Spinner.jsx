@@ -28,14 +28,14 @@ const styles = `
   .fullpage-wrapper {
     width: 100%;
     height: 100vh;
-    background: radial-gradient(#353c44, #222931);
+    background: linear-gradient(orange, lightyellow,   lightgreen);
     display: flex;
   }
   .reactor-container {
     width: 300px;
     height: 300px;
     margin: auto;
-    border: 1px dashed #888;
+    border: none;
     position: relative;
   }
   .circle {
