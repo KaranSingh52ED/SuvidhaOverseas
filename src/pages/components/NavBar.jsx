@@ -196,7 +196,7 @@ const Navigation = () => {
                                         }`}
                                 >
                                     <div className="flex items-center md:text-lg hover:text-red justify-between font-medium text-md cursor-pointer">
-                                        About
+                                        IELTS Exam
                                         <span
                                             className="ml-3 text-green-600 cursor-pointer"
                                             onClick={() => setIELTS(!IELTS)}

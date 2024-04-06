@@ -82,7 +82,8 @@ const Footer = () => {
         { text: "About Us", href: "/about" },
         { text: "Events", href: "/recent" },
         { text: "Gallery", href: "/gallery" },
-        { text: "Blog", href: "/blog" },
+        { text: "Services", href: "/causes" },
+        { text: "Exams", href: "/module" },
     ];
 
     // const gallery = [
