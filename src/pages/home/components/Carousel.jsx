@@ -30,20 +30,8 @@ const carouselItems = [
         buttonText: "Learn More",
         link: "/about"
     },
-    {
-        image: Image3,
-        title: "Make a Difference",
-        description: "Every contribution counts",
-        buttonText: "Donate Now",
-        link: "/donate"
-    },
-    {
-        image: Image4,
-        title: "Spread Kindness",
-        description: "Touching lives, one act at a time",
-        buttonText: "Volunteer Today",
-        link: "/donate"
-    },
+   
+   
 ];
 
 const Hero = () => {
